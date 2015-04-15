@@ -14,12 +14,13 @@
 
 ////////////////////////////////////////////////////////////////////
 // File includes:
+#include <windows.h>
 #include "GeometryTypes.hpp"
 #include "CameraCalibration.hpp"
 
 ////////////////////////////////////////////////////////////////////
 // Standard includes:
-#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
 
 void ARDrawingContextDrawCallback(void* param);
 

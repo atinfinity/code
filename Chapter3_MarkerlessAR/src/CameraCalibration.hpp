@@ -15,7 +15,7 @@
 
 ////////////////////////////////////////////////////////////////////
 // File includes:
-#include <opencv2/opencv.hpp>
+#include <opencv2/core/core.hpp>
 
 /**
 * A camera calibration class that stores intrinsic matrix and distortion coefficients.

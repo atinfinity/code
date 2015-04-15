@@ -11,7 +11,9 @@
 
 #ifndef DEBUG_HELPERS_HPP
 #define DEBUG_HELPERS_HPP
-
+#include <opencv2/core/core.hpp>
+#include <opencv2/nonfree/features2d.hpp>
+#include <opencv2/highgui/highgui.hpp>
 #include <string>
 #include <sstream>
 

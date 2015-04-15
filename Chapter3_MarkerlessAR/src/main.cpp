@@ -15,11 +15,7 @@
 #include "ARPipeline.hpp"
 #include "DebugHelpers.hpp"
 
-////////////////////////////////////////////////////////////////////
-// Standard includes:
-#include <opencv2/opencv.hpp>
-#include <gl/gl.h>
-#include <gl/glu.h>
+#include <iostream>
 
 /**
  * Processes a recorded video or live view from web-camera and allows you to adjust homography refinement and 

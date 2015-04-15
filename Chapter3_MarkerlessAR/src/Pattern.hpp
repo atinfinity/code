@@ -17,7 +17,9 @@
 #include "GeometryTypes.hpp"
 #include "CameraCalibration.hpp"
 
-#include <opencv2/opencv.hpp>
+#include <opencv2/calib3d/calib3d.hpp>
+#include <opencv2/nonfree/features2d.hpp>
+#include <opencv2/highgui/highgui.hpp>
 
 /**
  * Store the image data and computed descriptors of target pattern

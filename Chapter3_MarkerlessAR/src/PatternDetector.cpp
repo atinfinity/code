@@ -9,6 +9,8 @@
 *   http://www.packtpub.com/cool-projects-with-opencv/book
 *****************************************************************************/
 
+#define NOMINMAX
+
 ////////////////////////////////////////////////////////////////////
 // File includes:
 #include "PatternDetector.hpp"
